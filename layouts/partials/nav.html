@@ -2,7 +2,7 @@
   <div class="container">
     <nav class="nav">
       <div class="nav-left">
-        <a class="nav-item" href="{{ .Site.BaseURL }}"><h1 class="title is-4">{{ .Site.Title }}</h1></a>
+        <h1 class="title is-2">{{ .Site.Title }}</h1>
       </div>
       <div class="nav-right">
         <nav class="nav-item level is-mobile">
@@ -13,6 +13,29 @@
             </span>
           </a>
           {{ end }}
+        </nav>
+      </div>
+    </nav>
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="/">
+          <h1 class="title is-5">Home</h1>
+        </a>
+        <a class="nav-item" href="/tags/talks">
+          <h1 class="title is-5">Talks</h1>
+        </a>
+        <a class="nav-item" href="/tags/computing">
+          <h1 class="title is-5">Computing</h1>
+        </a>
+        <a class="nav-item" href="/tags/flying">
+          <h1 class="title is-5">Flying</h1>
+        </a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile">
+          <a class="level-item" href="/about">
+            <h1 class="title is-5">About</h1>
+          </a>
         </nav>
       </div>
     </nav>
